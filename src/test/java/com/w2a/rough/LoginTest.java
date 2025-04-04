@@ -18,7 +18,7 @@ public class LoginTest{
 	
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
-		//this is a rough page
+		//this is a rough page test
 		HomePage home = new HomePage();
 		BankManagerLogin BMLogin = home.goToBankManagerLogin();
 		BMLogin.goToAddCustomer();
