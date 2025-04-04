@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-03T12:23:03 EDT" name="Page Object Model" finished-at="2025-04-03T12:23:58 EDT" duration-ms="54775">
+    <groups>
+    </groups>
+    <test started-at="2025-04-03T12:23:03 EDT" name="BMLoginTest" finished-at="2025-04-03T12:23:11 EDT" duration-ms="8203">
+      <class name="com.w2a.testcases.BMLoginTest">
+        <test-method signature="bmloginTest()[pri:0, instance:com.w2a.testcases.BMLoginTest@5cbe2654]" started-at="2025-04-03T12:23:03 EDT" name="bmloginTest" finished-at="2025-04-03T12:23:11 EDT" duration-ms="8126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmloginTest -->
+      </class> <!-- com.w2a.testcases.BMLoginTest -->
+    </test> <!-- BMLoginTest -->
+    <test started-at="2025-04-03T12:23:11 EDT" name="AddCustomerTest" finished-at="2025-04-03T12:23:13 EDT" duration-ms="1528">
+      <class name="com.w2a.testcases.AddCustomerTest">
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@68880c21]" started-at="2025-04-03T12:23:11 EDT" name="addCustomerTest" data-provider="dp" finished-at="2025-04-03T12:23:13 EDT" duration-ms="1495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postalcode=l5n3k9, lastname=iyer, firstname=Gattu, alertText=Customer added successfully}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+    <test started-at="2025-04-03T12:23:13 EDT" name="OpenAccountTest" finished-at="2025-04-03T12:23:18 EDT" duration-ms="4746">
+      <class name="com.w2a.testcases.OpenAccountTest">
+        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@47ffe971]" started-at="2025-04-03T12:23:13 EDT" name="openAccountTest" data-provider="dp" finished-at="2025-04-03T12:23:18 EDT" duration-ms="4741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{custname=Gattu iyer, currency=Rupee, alertText=Account created successfully}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+      </class> <!-- com.w2a.testcases.OpenAccountTest -->
+    </test> <!-- OpenAccountTest -->
+    <test started-at="2025-04-03T12:23:18 EDT" name="CustomersTest" finished-at="2025-04-03T12:23:20 EDT" duration-ms="2094">
+      <class name="com.w2a.testcases.CustomersTest">
+        <test-method signature="customersTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.CustomersTest@6cd5122d]" started-at="2025-04-03T12:23:18 EDT" name="customersTest" data-provider="dp" finished-at="2025-04-03T12:23:20 EDT" duration-ms="2089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{custname=Gattu}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customersTest -->
+      </class> <!-- com.w2a.testcases.CustomersTest -->
+    </test> <!-- CustomersTest -->
+    <test started-at="2025-04-03T12:23:20 EDT" name="GoToCustLoginTest" finished-at="2025-04-03T12:23:20 EDT" duration-ms="108">
+      <class name="com.w2a.testcases.GoToCustLoginTest">
+        <test-method signature="goToCustLoginTest()[pri:0, instance:com.w2a.testcases.GoToCustLoginTest@4edef76c]" started-at="2025-04-03T12:23:20 EDT" name="goToCustLoginTest" finished-at="2025-04-03T12:23:20 EDT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCustLoginTest -->
+      </class> <!-- com.w2a.testcases.GoToCustLoginTest -->
+    </test> <!-- GoToCustLoginTest -->
+    <test started-at="2025-04-03T12:23:20 EDT" name="CustomerLoginTest" finished-at="2025-04-03T12:23:26 EDT" duration-ms="6373">
+      <class name="com.w2a.testcases.CustomerLoginTest">
+        <test-method signature="customerLoginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.CustomerLoginTest@7342e05d]" started-at="2025-04-03T12:23:20 EDT" name="customerLoginTest" data-provider="dp" finished-at="2025-04-03T12:23:26 EDT" duration-ms="6371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{custname=Gattu iyer}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerLoginTest -->
+      </class> <!-- com.w2a.testcases.CustomerLoginTest -->
+    </test> <!-- CustomerLoginTest -->
+    <test started-at="2025-04-03T12:23:26 EDT" name="DepositTest" finished-at="2025-04-03T12:23:39 EDT" duration-ms="12691">
+      <class name="com.w2a.testcases.DepositTest">
+        <test-method signature="depositTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.DepositTest@2241f05b]" started-at="2025-04-03T12:23:26 EDT" name="depositTest" data-provider="dp" finished-at="2025-04-03T12:23:39 EDT" duration-ms="12691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{depositamt=500.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositTest -->
+      </class> <!-- com.w2a.testcases.DepositTest -->
+    </test> <!-- DepositTest -->
+    <test started-at="2025-04-03T12:23:39 EDT" name="WithdrawTest" finished-at="2025-04-03T12:23:54 EDT" duration-ms="15263">
+      <class name="com.w2a.testcases.WithdrawTest">
+        <test-method signature="withdrawTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.WithdrawTest@2133661d]" started-at="2025-04-03T12:23:39 EDT" name="withdrawTest" data-provider="dp" finished-at="2025-04-03T12:23:54 EDT" duration-ms="15263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{withdrawamt=100.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawTest -->
+      </class> <!-- com.w2a.testcases.WithdrawTest -->
+    </test> <!-- WithdrawTest -->
+    <test started-at="2025-04-03T12:23:55 EDT" name="TransactionTest" finished-at="2025-04-03T12:23:58 EDT" duration-ms="3138">
+      <class name="com.w2a.testcases.TransactionTest">
+        <test-method signature="transactionTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.TransactionTest@7915bca3]" started-at="2025-04-03T12:23:55 EDT" name="transactionTest" data-provider="dp" finished-at="2025-04-03T12:23:58 EDT" duration-ms="3136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{depositamt=500.0, withdrawamt=100.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testcases.TransactionTest@7915bca3]" started-at="2025-04-03T12:23:58 EDT" name="tearDown" finished-at="2025-04-03T12:23:58 EDT" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.TransactionTest -->
+    </test> <!-- TransactionTest -->
+  </suite> <!-- Page Object Model -->
+</testng-results>

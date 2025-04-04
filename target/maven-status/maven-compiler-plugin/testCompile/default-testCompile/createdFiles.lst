@@ -1,0 +1,11 @@
+com\w2a\testcases\CustomersTest.class
+com\w2a\testcases\WithdrawTest.class
+com\w2a\testcases\AddCustomerTest.class
+com\w2a\testcases\CustomerLoginTest.class
+com\w2a\rough\LoginTest.class
+com\w2a\testcases\BMLoginTest.class
+com\w2a\testcases\DepositTest.class
+com\w2a\testcases\TransactionTest.class
+com\w2a\testcases\OpenAccountTest.class
+com\w2a\testcases\BaseTest.class
+com\w2a\testcases\GoToCustLoginTest.class
